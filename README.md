@@ -11,6 +11,6 @@ Git repo can be found at - https://github.com/whougie/blog.git
 
 Deployment of app can be found at - https://whougie.github.io/blog/blog.html
 
-Code work from other resource(s):
+# Code work from other resource(s):
 
 * Got the slider (light/dark theme toggle) CSS configurations from - https://www.w3schools.com/howto/howto_css_switch.asp
