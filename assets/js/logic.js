@@ -51,7 +51,6 @@ function changeToLightOrDarkTheme() {
     console.log("In the dark theme")
     if (toggleButton) { // Getting the toggle button in the correct location if at start it's in dark mode
       toggleButton.checked = true;
-      
     }
   }
 }
