@@ -1,0 +1,28 @@
+/* Setting all the intented areas to use flex */
+h1, body, form { 
+  display: flex;
+}
+
+h1 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+  flex-wrap: wrap;
+  padding: 15rem 0 15rem 0;
+}
+
+form {
+  flex-direction: column;
+  gap: 0.5rem;
+}

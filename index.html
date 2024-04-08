@@ -5,19 +5,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+  
   <!-- Your own CSS link tags go here  -->
   <link rel="stylesheet" href="assets/css/form.css"/>
   <link rel="stylesheet" href="assets/css/styles.css"/>
-
-
+  
   <title>Blog Form</title>
 </head>
 
-
 <body>
-
   
+  <h1>My First Blog
+    <img src="https://cdn.pixabay.com/photo/2020/07/03/10/28/waterfall-5365926_1280.jpg"/>
+  </h1>
+  
+  <form>
+    <h2>What's on your mind?</h2>
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="John Wick" required/>
+    <label for="title">Title</label>
+    <input type="text" id="title" name="title" placeholder="Wick Series" required/>
+    <label for="content">Content</label>
+    <textarea type="text" id="content" name="content" placeholder="The Wick series has so much great action" required></textarea>
+    <input type="submit" value="Submit"/>
+  </form>
   <!-- Your own JS script tags go here  -->
   <script type="text/javascript"  src="assets/js/form.js"></script>
   <script type="text/javascript" src="assets/js/logic.js"></script>
