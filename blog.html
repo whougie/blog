@@ -11,17 +11,22 @@
   <link rel="stylesheet" href="assets/css/styles.css"/>
   
   
-  <title>Blog Page</title>
+  <title class="title">Blog Page</title>
+
+  <style>
+    html { background-color: white; color: black;}
+    .linkExtra { color: black}
+  </style>
 </head>
 
 <header>
   <div class="rightHeader">
     <span>Light/Black Toggle Backgound Theme</span>
     <label class="switch">
-      <input type="checkbox">
+      <input id="toggleButton" type="checkbox" name="toggle">
       <span class="slider round"></span>
     </label>
-    <button type="button" class="linkExtra">
+    <button type="button" style="background-color: rgb(77, 76, 74);" class="linkExtra">
       <a class="linkExtra" href="index.html">Back</a>
     </button>
   </div>
@@ -32,23 +37,7 @@
 
 
 <body>
-  <div class="bodyContainer">
-    <div class="blogEntry">
-      <p>Blog Title</p>
-      <span>Content</span>
-      <br>
-      <span>sdfds</span>
-      <p>Posted by: W Lo</p>
-    </div>
-    
-    <div class="blogEntry">
-        <p>Blog Title</p>
-        <span>Content</span>
-        <br>
-        <span>sdfdsafsafsad</span>
-        <p>Posted by: W Lo</p>
-    </div>
-
+  <div class="bodyContainer"> <!-- Will hold the rows for the blog entries -->
   </div>
   <!-- Your own JS script tags go here  -->
   <script type="text/javascript"  src="assets/js/blog.js"></script>

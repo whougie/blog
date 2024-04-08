@@ -15,12 +15,14 @@
 }
 
 .blogEntry {
-  border: 2px solid black;
+  border-width: 1px;
+  border-style: solid solid solid solid;
 }
 
-/* footer {
+ footer {
   display: block;
-} */
+  border-style: double none double none;
+} 
 
 .footerContainer {
   flex-direction: column;
@@ -30,7 +32,6 @@
 
 .linkExtra {
   text-decoration: none;
-  color: black;
 }
 
 /* The switch - the box around the slider */
@@ -74,7 +75,7 @@
 }
 
 input:checked + .slider {
-  background-color: black;
+  background-color: #463e3e;
 }
 
 input:focus + .slider {

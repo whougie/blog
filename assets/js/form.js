@@ -1,7 +1,13 @@
+// Retriving elements from HTML
 const submitButtonElement = document.querySelector('#submitButton');
 const usernameElement = document.querySelector('#username');
 const titleElement = document.querySelector('#title');
 const contentElement = document.querySelector('#content');
+
+/////
+// Execute Code Flow
+/////
+
 
 ////
 // Event listener(s)
